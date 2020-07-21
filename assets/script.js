@@ -2,7 +2,7 @@ var map;
 var src = 'https://v-hius.github.io/gmapKML/KmlFile.kml';
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById('content-wrapper'), {//replace map with content
         center: new google.maps.LatLng(21.0717671,105.7740281),
         zoom: 10,
         mapTypeId: 'terrain'
