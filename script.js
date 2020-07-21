@@ -43,7 +43,7 @@ function addYourLocationButton(map, marker)
     secondChild.style.margin = '4px';
     secondChild.style.width = '32px';
     secondChild.style.height = '32px';
-    secondChild.style.backgroundImage = 'url(mylocation.png)';
+    secondChild.style.backgroundImage = 'url(https://v-hius.github.io/mylocation.png)';
     secondChild.style.backgroundRepeat = 'no-repeat';
     secondChild.id = 'you_location_img';
 
