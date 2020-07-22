@@ -4,40 +4,78 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Thêm địa điểm - Beer Map</title>
+    <title>Thêm địa điểm - Map</title>
     <link rel="icon" href="assets/img/beerMap.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Icon-Input.css">
+    <link rel="stylesheet" href="assets/css/review.css">
+    <link rel="stylesheet" href="assets/css/x-dropdown.css">
 </head>
 
 <body id="page-top">
     <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-hover-animate="swing" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Beer Map-04</span></div>
+                </a>
+                <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <div class="input-group">
+                        <div class="input-group-append"></div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
+                        <a
+                            class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-settings"></i><span>Cài đặt</span></a><a class="nav-link active" data-bs-hover-animate="pulse" href="addplace.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="d-flex flex-column" id="content-wrapper">
-            <div id="content"></div>
-        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
-    <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
-        <div class="container-fluid d-flex flex-column p-0">
-            <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-                <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-map-marked-alt"></i></div>
-                <div class="sidebar-brand-text mx-3"><span>Beer Map-04</span></div>
-            </a>
-            <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                <div class="input-group">
-                    <div class="input-group-append"></div>
+            <div id="content">
+                <div class="container-fluid">
+                    <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Thêm địa điểm</h1>
                 </div>
-            </form>
-            <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                <li class="nav-item" role="presentation"><a class="nav-link" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link active" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a><a class="nav-link" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a></li>
-                <li
-                    class="nav-item" role="presentation"><a class="nav-link" href="profile.html"><i class="far fa-user"></i><span>Tài khoản</span></a><a class="nav-link" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm tác giả</span></a></li>
-            </ul>
+                <div class="jumbotron">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title" style="margin-bottom: 20px;">Vui lòng cung cấp thông tin về địa điểm. Địa điểm này sẽ được hiển thị công khai.</h6>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text icon-container"><i class="fa fa-home"></i></span></div><input type="text" class="form-control" placeholder="Tên địa điểm"></div>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text icon-container"><i class="fas fa-address-card"></i></span></div><input type="text" class="form-control" placeholder="Địa chỉ"></div>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text icon-container"><i class="icon ion-ios-location"></i></span></div><input type="text" class="form-control" placeholder="Toạ độ"></div>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text icon-container"><i class="fa fa-phone"></i></span></div><input type="text" class="form-control" placeholder="Liên lạc"></div>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text icon-container"><i class="icon ion-earth"></i></span></div><input type="text" class="form-control" placeholder="Website"></div>
+                            <form style="margin: 0px;padding: 0px;padding-top: 17px;"><input type="file" id="inputFileToLoad">
+                                <p>Thêm hình ảnh cho địa điểm này.</p>
+                                <div class="mt-4"><button class="btn btn-success btn-lg" type="submit" style="width: 118px;">Gửi</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
 
 </html>
