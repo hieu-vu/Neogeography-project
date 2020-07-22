@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Đánh giá - Map</title>
+    <link rel="icon" href="assets/img/beerMap.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Icon-Input.css">
+    <link rel="stylesheet" href="assets/css/review.css">
+    <link rel="stylesheet" href="assets/css/x-dropdown.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-hover-animate="swing" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Beer Map-04</span></div>
+                </a>
+                <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <div class="input-group">
+                        <div class="input-group-append"></div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a><a class="nav-link active" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
+                        <a
+                            class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-settings"></i><span>Cài đặt</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Đánh giá</h1>
+                </div>
+                <div class="jumbotron">
+                    <div class="card" style="margin-top: -22px;">
+                        <div class="card-body">
+                            <h4 class="text-center card-title">Viết nhận xét của bạn</h4>
+                            <div class="x-dropdown dropdown">
+                                <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>Lựa chọn địa điểm</span><i class="material-icons">keyboard_arrow_down</i></div>
+                                <div class="dropdown-menu" role="menu">
+                                    <a class="dropdown-item" role="presentation" href="#">Quán nhậu 1</a>
+                                    <a class="dropdown-item" role="presentation" href="#">Quán nhậu 2</a>
+                                    <a class="dropdown-item" role="presentation" href="#">Quán nhậu 3</a>
+                                </div>
+                            </div>
+                            <div class="form-group"><small class="form-text" style="height: 24px;margin-top: 13px;">Chạm để xếp hạng:</small><div class="form-group">
+    <div class="text-left star-rating" style="font-size: 25px;color: #f9dd16;"><span class="fa fa-star-o" style="padding-right: 1px;padding-left: 1px;" data-rating="1"></span><span class="fa fa-star-o" style="padding-right: 1px;padding-left: 1px;" data-rating="2"></span><span class="fa fa-star-o" style="padding-right: 1px;padding-left: 1px;"
+            data-rating="3"></span><span class="fa fa-star-o" style="padding-right: 1px;padding-left: 1px;" data-rating="4"></span><span class="fa fa-star-o" style="padding-right: 1px;padding-left: 1px;" data-rating="5"></span><input class="form-control rating-value"
+            type="hidden" id="rate" name="Rating" value="0" /></div>
+</div></div>
+                            <form>
+                                <p>Tiêu đề:</p><input class="form-control" type="text">
+                                <p style="margin-top: 20px;">Nhận xét (Tuỳ chọn):</p><textarea class="form-control" style="height: 130px;"></textarea>
+                                <div class="text-center mt-4"><button class="btn btn-success btn-lg text-center" type="submit" style="padding-right: 30px;padding-top: 8px;padding-left: 30px;width: 115px;">Đăng</button><button class="btn btn-danger btn-lg text-center" type="reset"
+                                        style="padding-right: 30px;padding-top: 8px;padding-left: 30px;margin-right: 9px;margin-left: 58px;width: 115px;">Huỷ</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/review.js"></script>
+</body>
+
+</html>
