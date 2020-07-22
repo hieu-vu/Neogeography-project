@@ -10,9 +10,24 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <style>
+        input {
+            z-index: 1;
+            position: absolute;
+            margin-left: 245px;
+            margin-top: 10px;
+            margin-right: 0px;
+            margin-bottom: 8px;
+            filter: blur(0px) invert(0%) sepia(0%);
+            opacity: 100;
+            height: 30px;
+            width: 260px;
+        }
+    </style>
 </head>
 
 <body id="page-top">
+    
     <div id="wrapper">
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0">
@@ -33,10 +48,18 @@
                 </ul>
             </div>
         </nav>
-        <div class="d-flex flex-column" id="content-wrapper">
-            <div id="content"><input class="shadow-sm form-control-sm border-0 small" type="text" data-aos="fade" placeholder="Tìm kiếm địa điểm" style="margin-left: 13px;margin-top: 9px;margin-right: 0px;filter: blur(0px) invert(0%) sepia(0%);opacity: 1;height: 30px;width: 260px;"></div>
+
+        <div class="d-flex flex-column" id="content-wrapper" >
         </div>
+
+        <input 
+            id="searchPlace"
+            class="shadow-sm form-control-sm border-0 small"
+            type="text" data-aos="fade"
+            placeholder="Tìm kiếm địa điểm"
+        />
     </div>
+
     <script src = "assets/script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc563n4ko5g3-1Hjw1aC7dh71_vsU43es&callback=initMap"></script>
 </body>
