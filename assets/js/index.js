@@ -1,5 +1,5 @@
 var map;
-var src = 'https://v-hius.github.io/gmapKML/KmlFile.kml';
+var src = 'https://v-hius.github.io/assets/kml/locationData.kml';
 
 function initMap()
 {
