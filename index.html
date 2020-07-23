@@ -22,14 +22,12 @@
         input {
             z-index: 1;
             position: absolute;
-            margin-left: 245px;
+            margin-left: 240px;
             margin-top: 10px;
-            margin-right: 0px;
-            margin-bottom: 8px;
             filter: blur(0px) invert(0%) sepia(0%);
             opacity: 100;
-            height: 30px;
-            width: 260px;
+            height: 32px;
+            width: 250px;
         }
     </style>
 </head>
@@ -59,11 +57,11 @@
         </nav>
         <div class="d-flex flex-column" id="content-wrapper"></div>
         <input
-            id="searchPlace"
+            id="searchBox"
             class="shadow-sm form-control-sm border-0 small"
             type="text"
             data-bs-hover-animate="pulse"
-            placeholder="Tìm kiếm địa điểm"
+            placeholder="Tìm kiếm địa điểm, toạ độ"
         />
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -71,6 +69,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/index.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc563n4ko5g3-1Hjw1aC7dh71_vsU43es&callback=initMap"></script>
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc563n4ko5g3-1Hjw1aC7dh71_vsU43es&libraries=places"></script>
 </body>
 
 </html>
