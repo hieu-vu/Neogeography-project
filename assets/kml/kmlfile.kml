@@ -1,21 +1,43 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>kmlfile.kml</name>
-	<Style id="Point1">
+	<open>1</open>
+	<Style id="Point13">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point2">
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="Point12">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="Point3">
 		<IconStyle>
 			<Icon>
@@ -23,14 +45,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point4">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="Point5">
+	<Style id="Point1">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
@@ -51,14 +66,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point8">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="Point9">
+	<Style id="Point14">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
@@ -72,34 +80,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point11">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="Point12">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="Point13">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="Point14">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Style id="Point15">
 		<IconStyle>
 			<Icon>
@@ -107,28 +87,61 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point16">
+	<Style id="Point9">
 		<IconStyle>
 			<Icon>
-				<href></href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point17">
+	<Style id="Point11">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="Point18">
+	<Style id="Point8">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="Point4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Folder>
+		<open>1</open>
 		<Placemark>
 			<name>The Buffet Garden</name>
 			<styleUrl>#Point1</styleUrl>
@@ -235,24 +248,20 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>HUMG_Công Viên Khủng Long</name>
-			<styleUrl>#Point16</styleUrl>
+			<name>HUMG</name>
+			<LookAt>
+				<longitude>105.7755312013372</longitude>
+				<latitude>21.07177047179439</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003371315518312254</heading>
+				<tilt>28.93154327956886</tilt>
+				<range>638.3618101692979</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
-				<coordinates>105.773947871012,21.0719103625692,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà gửi xe HUMG</name>
-			<styleUrl>#Point17</styleUrl>
-			<Point>
-				<coordinates>105.777691496966,21.0717888021983,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bệnh Viện Phương Đông_Shark Việt</name>
-			<styleUrl>#Point18</styleUrl>
-			<Point>
-				<coordinates>105.775715865374,21.0708119672392,0</coordinates>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7740594893274,21.07196577900526,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
