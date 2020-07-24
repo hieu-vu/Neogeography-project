@@ -38,8 +38,8 @@ function initMap()
     addYourLocationButton(map, myMarker);
 
     //Search Place
-    addSearchButton(map,myMarker);
-    //searchPlace(map);
+    //addSearchButton();
+    searchPlace(map);
 }
 
 function addYourLocationButton(map, marker) {
@@ -85,8 +85,8 @@ function addYourLocationButton(map, marker) {
     controlDiv.index = 1;
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(controlDiv);
 }
-
-function addSearchButton(map, marker) {
+/*
+function addSearchButton() {
     var controlDiv = document.createElement('div');
 
     var ControlUI = document.createElement('button');
@@ -127,29 +127,70 @@ function addSearchButton(map, marker) {
             $('#you_location_img').css('background-position', '0px 0px');
         }
     });
-*/
+*
     //controlDiv.index = 1;
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
 }
-
-//Search Place
+*/
 function searchPlace(map) {
-    input = document.getElementById("searchBox");
+    // Create the search box and link it to the UI element.
+    const input = document.getElementById("searchBox");
+    const searchBox = new google.maps.places.SearchBox(input);
+    // Bias the SearchBox results towards current map's viewport.
+    map.addListener("bounds_changed", () => {
+      searchBox.setBounds(map.getBounds());
+    });
 
-    infowindow = new google.maps.InfoWindow();
+    let markers = [];
 
-    const request = {
-        query: "Hồ Chí Minh",
-        fields: ["name", "geometry"]
-      };
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+    searchBox.addListener("places_changed", () => {
+      const places = searchBox.getPlaces();
+  
+      if (places.length == 0) {
+        return;
+      }
 
-      service = new google.maps.places.PlacesService(map);
-      service.findPlaceFromQuery(request, (results, status) => {
-        if (status === google.maps.places.PlacesServiceStatus.OK) {
-          for (let i = 0; i < results.length; i++) {
-            createMarker(results[i]);
-          }
-          map.setCenter(results[0].geometry.location);
+      // Clear out the old markers.
+      markers.forEach(marker => {
+        marker.setMap(null);
+      });
+      markers = [];
+
+      // For each place, get the icon, name and location.
+      const bounds = new google.maps.LatLngBounds();
+      places.forEach(place => {
+        if (!place.geometry) {
+          console.log("Returned place contains no geometry");
+          return;
+        }
+        
+        const icon = {
+          url: place.icon,
+          size: new google.maps.Size(71, 71),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(17, 34),
+          scaledSize: new google.maps.Size(25, 25)
+        };
+        
+        // Create a marker for each place.
+        markers.push(
+          new google.maps.Marker({
+            map,
+            icon,
+            title: place.name,
+            position: place.geometry.location
+          })
+        );
+  
+        if (place.geometry.viewport) {
+          // Only geocodes have viewport.
+          bounds.union(place.geometry.viewport);
+        } else {
+          bounds.extend(place.geometry.location);
         }
       });
+      map.fitBounds(bounds);
+    });
 }
