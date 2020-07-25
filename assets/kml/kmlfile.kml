@@ -1,135 +1,333 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>kmlfile.kml</name>
-	<open>1</open>
-	<StyleMap id="msn_ranger_station">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ranger_station</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ranger_station</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ranger_station">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="Point1">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_ranger_station">
+	<Style id="Point2">
 		<IconStyle>
-			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="Point10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point1</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="Point3">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point4">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point5">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point6">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point7">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point8">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point9">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point10">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="Point11">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="Point12">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point13">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point14">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point15">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point16">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point17">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point18">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point19">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point20">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point21">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point22">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point23">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point24">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point25">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point26">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point27">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point28">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point29">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point30">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point31">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point32">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point33">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point34">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point35">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point36">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point37">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="Point38">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+		</IconStyle>
 	</Style>
 	<Folder>
-		<open>1</open>
 		<Placemark>
 			<name>Sài Gòn Hội Quán</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point1</styleUrl>
 			<Point>
 				<coordinates>105.777697741665,21.0713708837151,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Đặc sản Dê quay</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point2</styleUrl>
 			<Point>
 				<coordinates>105.777397776469,21.0713405176592,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Huy Lùn Quán</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point3</styleUrl>
 			<Point>
 				<coordinates>105.777159868668,21.0713577222182,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Thu Huyền Quán</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point4</styleUrl>
 			<Point>
 				<coordinates>105.777336692301,21.0708975180125,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Ngon Ngon</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point5</styleUrl>
 			<Point>
 				<coordinates>105.777716838142,21.0705302400999,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà Hàng Vinh Giang</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point6</styleUrl>
 			<Point>
 				<coordinates>105.778212537503,21.0702353803212,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà Hàng Bảo Khánh</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point7</styleUrl>
 			<Point>
 				<coordinates>105.777594505594,21.0697445230719,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>CÔ LÔ NHUÊ QUÁN</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point8</styleUrl>
 			<Point>
 				<coordinates>105.777043279972,21.0684738983906,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Hương Quán</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point9</styleUrl>
 			<Point>
 				<coordinates>105.780917299129,21.0661457111467,0</coordinates>
 			</Point>
@@ -143,196 +341,196 @@
 		</Placemark>
 		<Placemark>
 			<name>Bia hơi Hà Việt</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point11</styleUrl>
 			<Point>
 				<coordinates>105.76950535507,21.0488542471881,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>The Buffet Garden</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point12</styleUrl>
 			<Point>
 				<coordinates>105.775585167031,21.0778027777778,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Reng Nướng</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point13</styleUrl>
 			<Point>
 				<coordinates>105.775141262157,21.0776731587515,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nướng Bắc Cạn</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point14</styleUrl>
 			<Point>
 				<coordinates>105.775455382711,21.0775833280904,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nướng Sơn Béo Cs3</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point15</styleUrl>
 			<Point>
 				<coordinates>105.775681600791,21.0781584423826,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Fin BBQ - Buffet Nướng</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point16</styleUrl>
 			<Point>
 				<coordinates>105.774586754776,21.0775456248983,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Ốc Tài Chính</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point17</styleUrl>
 			<Point>
 				<coordinates>105.774133754359,21.0774409069886,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Chicken BBQ</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point18</styleUrl>
 			<Point>
 				<coordinates>105.774237198884,21.0774388367171,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Lẩu Nướng Nam Định</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point19</styleUrl>
 			<Point>
 				<coordinates>105.773956072026,21.0768828476987,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Tom Kitchen</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point20</styleUrl>
 			<Point>
 				<coordinates>105.773632920548,21.0770147127435,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Fin House</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point21</styleUrl>
 			<Point>
 				<coordinates>105.773228579115,21.076876433438,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Bia Tùng Ngọc</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point22</styleUrl>
 			<Point>
 				<coordinates>105.772267634593,21.0771382831632,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Ốc xứ Thanh</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point23</styleUrl>
 			<Point>
 				<coordinates>105.77226217084,21.0768025390266,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà Hàng Mộc Béo</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point24</styleUrl>
 			<Point>
 				<coordinates>105.772351411329,21.0770396600874,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhuệ Giang Beer</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point25</styleUrl>
 			<Point>
 				<coordinates>105.771848003273,21.0781750497444,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà Hàng Kim Ngân</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point26</styleUrl>
 			<Point>
 				<coordinates>105.772046148819,21.0788998997527,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Lẩu Nướng Than Hoa</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point27</styleUrl>
 			<Point>
 				<coordinates>105.7728498,21.0747423,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Lẩu Nướng Bay</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point28</styleUrl>
 			<Point>
 				<coordinates>105.7733185,21.074759,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>BBQ &amp; Thái Hotpot</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point29</styleUrl>
 			<Point>
 				<coordinates>105.773346,21.074777,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà hàng Tuấn Béo</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point30</styleUrl>
 			<Point>
 				<coordinates>105.7737135,21.0742474,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Cay Đức Huệ</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point31</styleUrl>
 			<Point>
 				<coordinates>105.773362,21.0741055555556,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point32</styleUrl>
 			<Point>
 				<coordinates>105.777138,21.074318,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Nhà Hàng Tùng Lâm</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point33</styleUrl>
 			<Point>
 				<coordinates>105.777305,21.07255,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Huân Béo</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point34</styleUrl>
 			<Point>
 				<coordinates>105.778257,21.0815944444444,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Vườn Bia - Lẩu Nướng</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point35</styleUrl>
 			<Point>
 				<coordinates>105.778065,21.080842,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Cỏ</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point36</styleUrl>
 			<Point>
 				<coordinates>105.777445,21.0752916666667,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Quán Hải Tiến</name>
-			<styleUrl>#Point10</styleUrl>
+			<styleUrl>#Point37</styleUrl>
 			<Point>
 				<coordinates>105.777292,21.074317,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>HUMG</name>
-			<styleUrl>#msn_ranger_station</styleUrl>
+			<styleUrl>#Point38</styleUrl>
 			<Point>
 				<coordinates>105.774059489327,21.0719657790053,0</coordinates>
 			</Point>
