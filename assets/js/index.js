@@ -15,7 +15,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('content-wrapper'), mapOptions);
 
   var kmlLayer = new google.maps.KmlLayer({
-        url: "https://v-hius.github.io/KmlFile.kml",
+        url: "http://v-hius.github.io/KmlFile.kml",
         //suppressInfoWindows: true,
         map: map
       });
