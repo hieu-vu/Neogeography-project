@@ -349,14 +349,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Nướng BBQ Thái Hotpot</name>
-			<styleUrl>#msn_beerLocation</styleUrl>
+			<styleUrl>#sh_beerLocation</styleUrl>
 			<ExtendedData>
 				<Data>
 				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
 		101 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></value>
 				</Data>
 			</ExtendedData>
-			
 			<Point>
 				<coordinates>105.773346,21.074777,0</coordinates>
 			</Point>
@@ -427,7 +426,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Vườn Bia Lẩu Nướng</name>
-			<styleUrl>#msn_beerLocation</styleUrl>
+			<styleUrl>#sh_beerLocation</styleUrl>
 			<ExtendedData>
 				<Data>
 				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
