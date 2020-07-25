@@ -1,7 +1,7 @@
 function initMap() {
   mapOptions = {
           center: { lat: 21.0717671, lng: 105.7740281 },
-          zoom: 10,
+          zoom: 15,
           mapTypeId: 'terrain',
           streetViewControl: false,
           fullscreenControl: false,
@@ -16,7 +16,7 @@ function initMap() {
 
   var kmlLayer = new google.maps.KmlLayer({
         url: "https://v-hius.github.io/KmlFile.kml",
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         map: map
       });
 /*
