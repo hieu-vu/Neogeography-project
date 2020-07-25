@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2"
   xmlns:gx="http://www.google.com/kml/ext/2.2">
 <Document>
-	<name>kmlfile.kml</name>
+	<name>kmlfile</name>
 	<Style id="sh_beerLocation">
 		<IconStyle>
 			<Icon>
