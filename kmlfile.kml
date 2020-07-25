@@ -20,7 +20,7 @@
 			<text>$[video]</text>
 		</BalloonStyle>
 	</Style>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix1">
 		<name>Quán Hải Tiến</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -33,7 +33,7 @@
 			<coordinates>105.777292,21.074317,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix2">
 		<name>Quán Cỏ</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -46,7 +46,7 @@
 			<coordinates>105.777445,21.07529166666666,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix3">
 		<name>Vườn Bia Lẩu Nướng</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -59,7 +59,7 @@
 			<coordinates>105.778065,21.080842,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix4">
 		<name>Quán Huân Béo</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -72,7 +72,7 @@
 			<coordinates>105.778257,21.08159444444444,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix5">
 		<name>Nhà Hàng Tùng Lâm</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -85,7 +85,7 @@
 			<coordinates>105.777305,21.07255,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix6">
 		<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -97,7 +97,7 @@
 			<coordinates>105.777138,21.074318,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix7">
 		<name>Quán Cay Đức Huệ</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -110,7 +110,7 @@
 			<coordinates>105.773362,21.07410555555555,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix8">
 		<name>Nhà hàng Tuấn Béo</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -123,7 +123,7 @@
 			<coordinates>105.7737135,21.0742474,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix9">
 		<name>Nướng BBQ Thái Hotpot</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -136,7 +136,7 @@
 			<coordinates>105.773346,21.074777,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix10">
 		<name>Lẩu Nướng Bay</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -149,7 +149,7 @@
 			<coordinates>105.7733185,21.074759,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix11">
 		<name>Lẩu Nướng Than Hoa</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -162,7 +162,7 @@
 			<coordinates>105.7728498,21.0747423,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix12">
 		<name>Nhà Hàng Kim Ngân</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -174,7 +174,7 @@
 			<coordinates>105.772046148819,21.0788998997527,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix13">
 		<name>Nhuệ Giang Beer</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -186,7 +186,7 @@
 			<coordinates>105.771848003273,21.0781750497444,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix14">
 		<name>Nhà Hàng Mộc Béo</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -198,7 +198,7 @@
 			<coordinates>105.772351411329,21.0770396600874,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix15">
 		<name>Ốc xứ Thanh</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -210,7 +210,7 @@
 			<coordinates>105.77226217084,21.0768025390266,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix16">
 		<name>Quán Bia Tùng Ngọc</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -222,14 +222,14 @@
 			<coordinates>105.772267634593,21.0771382831632,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix17">
 		<name>Fin House</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.773228579115,21.076876433438,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix18">
 		<name>Tom Kitchen</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -241,21 +241,21 @@
 			<coordinates>105.773632920548,21.0770147127435,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix19">
 		<name>Lẩu Nướng Nam Định</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.773956072026,21.0768828476987,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix20">
 		<name>Chicken BBQ</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.774237198884,21.0774388367171,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix21">
 		<name>Ốc Tài Chính</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -267,7 +267,7 @@
 			<coordinates>105.774133754359,21.0774409069886,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix22">
 		<name>Fin BBQ Buffet Nướng</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -279,7 +279,7 @@
 			<coordinates>105.774586754776,21.0775456248983,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix23">
 		<name>Nướng Sơn Béo CS3</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -291,7 +291,7 @@
 			<coordinates>105.775681600791,21.0781584423826,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix24">
 		<name>Nướng Bắc Cạn</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -303,7 +303,7 @@
 			<coordinates>105.775455382711,21.0775833280904,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix25">
 		<name>Reng Nướng</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -315,7 +315,7 @@
 			<coordinates>105.775141262157,21.0776731587515,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix26">
 		<name>The Buffet Garden</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -327,7 +327,7 @@
 			<coordinates>105.775585167031,21.07780277777778,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix27">
 		<name>Bia hơi Hà Việt</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -339,7 +339,7 @@
 			<coordinates>105.7695053550701,21.0488542471881,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix28">
 		<name>Bia hơi Tuấn Ngọc</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -352,7 +352,7 @@
 			<coordinates>105.7804635930722,21.06700438779355,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix29">
 		<name>Hương Quán</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -364,7 +364,7 @@
 			<coordinates>105.7809172991291,21.06614571114675,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix30">
 		<name>Cô Lô Nhuê Quán</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -377,7 +377,7 @@
 			<coordinates>105.7770432799719,21.06847389839063,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix31">
 		<name>Nhà Hàng Bảo Khánh</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -390,7 +390,7 @@
 			<coordinates>105.7775945055944,21.06974452307193,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix32">
 		<name>Nhà Hàng Vinh Giang</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -403,7 +403,7 @@
 			<coordinates>105.7782125375026,21.07023538032116,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix33">
 		<name>Quán Ngon Ngon</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -416,7 +416,7 @@
 			<coordinates>105.7777168381421,21.07053024009993,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix34">
 		<name>Thu Huyền Quán</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -429,7 +429,7 @@
 			<coordinates>105.7773366923014,21.07089751801247,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix35">
 		<name>Huy Lùn Quán</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -441,7 +441,7 @@
 			<coordinates>105.7771598686676,21.07135772221823,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix36">
 		<name>Đặc sản Dê quay</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -454,7 +454,7 @@
 			<coordinates>105.7773977764686,21.07134051765924,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix37">
 		<name>Sài Gòn Hội Quán</name>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<ExtendedData>
@@ -466,7 +466,7 @@
 			<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix38">
 		<name>Google West Campus 1</name>
 		<visibility>0</visibility>
 		<styleUrl>#west_campus_style</styleUrl>
@@ -481,7 +481,7 @@
 			<coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix39">
 		<name>Google West Campus 2</name>
 		<visibility>0</visibility>
 		<styleUrl>#west_campus_style</styleUrl>
@@ -496,7 +496,7 @@
 			<coordinates>-122.0926995893311,37.42419403634421,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix">
+	<Placemark id="placeFix40">
 		<name>Google West Campus 3</name>
 		<visibility>0</visibility>
 		<styleUrl>#west_campus_style</styleUrl>
