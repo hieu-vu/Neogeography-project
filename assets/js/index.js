@@ -1,11 +1,6 @@
-var map;
-var src = 'https://v-hius.github.io/assets/kml/kmlfile.kml';
-
 function initMap()
 {
-    map = new google.maps.Map(
-        document.getElementById('content-wrapper'),
-        {
+    mapOptions = {
             center: { lat: 21.0717671, lng: 105.7740281 },
             zoom: 10,
             mapTypeId: 'terrain',
@@ -17,16 +12,23 @@ function initMap()
             zoomControlOptions: {
                 position: google.maps.ControlPosition.RIGHT_BOTTOM
             }
+    };
+    var map = new google.maps.Map(document.getElementById('content-wrapper'), mapOptions);
 
+    var kmlLayer = new google.maps.KmlLayer({
+          url: "https://v-hius.github.io/assets/kml/kmlfile.kml",
+          suppressInfoWindows: true,
+          map: map
         });
-
-    var kmlLayer = new google.maps.KmlLayer(
-        src,
-        {
-            suppressInfoWindows: true,
-            preserveViewport: false,
-            map: map
+    kmlLayer.addListener('click', function(kmlEvent) {
+          var text = kmlEvent.featureData.description;
+          showInContentWindow(text);
         });
+      
+    function showInContentWindow(text) {
+          var sidediv = document.getElementById('content-window');
+          sidediv.innerHTML = text;
+        }
 
     var myMarker = new google.maps.Marker(
         {
