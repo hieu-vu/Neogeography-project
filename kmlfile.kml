@@ -9,13 +9,6 @@
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="west_campus_style">
-		<IconStyle>
-			<Icon>
-				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 	</Style>
