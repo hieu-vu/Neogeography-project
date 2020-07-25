@@ -1,593 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2">
 <Document>
 	<name>kmlfile.kml</name>
-	<open>1</open>
-	<StyleMap id="msn_beerLocation">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_beerLocation</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_beerLocation2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point41</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_beerLocation">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point60">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point31">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_ranger_station">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ranger_station</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ranger_station</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point91">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point151">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point16">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point31</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point111</styleUrl>
-		</Pair>
-	</StyleMap>
+	
 	<Style id="Point130">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point120">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point121</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point12</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point100">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sn_beerLocation0">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point15">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sn_beerLocation">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
+
 	<Style id="sn_ranger_station">
 		<IconStyle>
-			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point12">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point20">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point140">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sh_beerLocation0">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
+
 	<Style id="sn_beerLocation1">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
+
 	<Style id="Point80">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point111">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point3">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point101">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point100</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point5">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point81">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point41">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point61">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point70">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_beerLocation00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_beerLocation2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_beerLocation</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point130</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point131</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="sn_beerLocation10">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point51">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sh_ranger_station">
 		<IconStyle>
-			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point80</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point81</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="sh_beerLocation1">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point61</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point121">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point150">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point151</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point71">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_beerLocation0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_beerLocation1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_beerLocation0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point140</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point141</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point131">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point9">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_beerLocation1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_beerLocation0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_beerLocation00</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point110">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_beerLocation01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_beerLocation10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_beerLocation1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="Point50">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point51</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point1">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sn_beerLocation2">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point90">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point91</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="sh_beerLocation00">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png?fbclid=IwAR3LwMXooosTeF-ips6LcGS4VkCbtZp78Ih9I3Y9uw7K81W5nOVO483yMps</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point2">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="Point10">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+
 	<Style id="sh_beerLocation2">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="Point17">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point16</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point40">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="Point7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#Point70</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#Point71</styleUrl>
-		</Pair>
-	</StyleMap>
+
 	<Style id="Point141">
 		<IconStyle>
 			<Icon>
 				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Folder>
-		<open>1</open>
+
 		<Placemark>
 			<name>Sài Gòn Hội Quán</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/SaiGonHoiQuan.png">]]></description>
-			<LookAt>
-				<longitude>105.7782684569235</longitude>
-				<latitude>21.07073082540159</latitude>
-				<altitude>0</altitude>
-				<heading>0.001550013723951513</heading>
-				<tilt>14.54152757418644</tilt>
-				<range>418.7110680262974</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
 			</Point>
 		</Placemark>
@@ -595,36 +351,16 @@
 			<name>Đặc sản Dê quay</name>
 			<description><![CDATA[<img max-width="300px" src="https://v-hius.github.io/assets/img/storeFont/DacSanDeQuay.png"><br>
 Ngã Tư Đại học Mỏ - Địa Chất]]></description>
-			<LookAt>
-				<longitude>105.7771883696881</longitude>
-				<latitude>21.07080045500413</latitude>
-				<altitude>0</altitude>
-				<heading>0.001161697201493954</heading>
-				<tilt>14.54152628526311</tilt>
-				<range>417.1667100080923</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7773977764686,21.07134051765924,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Huy Lùn Quán</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuyLunQuan.png"><br>]]></description>
-			<LookAt>
-				<longitude>105.7772342349299</longitude>
-				<latitude>21.07061790296105</latitude>
-				<altitude>0</altitude>
-				<heading>0.001178189730141509</heading>
-				<tilt>14.5415262833917</tilt>
-				<range>417.166744785412</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7771598686676,21.07135772221823,0</coordinates>
 			</Point>
 		</Placemark>
@@ -632,18 +368,8 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Thu Huyền Quán</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThuHuyenQuan.png"><br>
 535 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7781450133957</longitude>
-				<latitude>21.07050216185927</latitude>
-				<altitude>0</altitude>
-				<heading>0.001505630412768132</heading>
-				<tilt>0</tilt>
-				<range>417.3452692067155</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7773366923014,21.07089751801247,0</coordinates>
 			</Point>
 		</Placemark>
@@ -651,18 +377,8 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Quán Ngon Ngon</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanNgonNgon.png"><br>
 533 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7781450133957</longitude>
-				<latitude>21.07050216185927</latitude>
-				<altitude>0</altitude>
-				<heading>0.001505630412768132</heading>
-				<tilt>0</tilt>
-				<range>417.3452692067155</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7777168381421,21.07053024009993,0</coordinates>
 			</Point>
 		</Placemark>
@@ -670,18 +386,8 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Nhà Hàng Vinh Giang</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangVinhGiang.png"><br>
 476 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7786560745714</longitude>
-				<latitude>21.06945557164834</latitude>
-				<altitude>0</altitude>
-				<heading>0.001689364542929886</heading>
-				<tilt>0</tilt>
-				<range>416.737071771934</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7782125375026,21.07023538032116,0</coordinates>
 			</Point>
 		</Placemark>
@@ -689,18 +395,8 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Nhà Hàng Bảo Khánh</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangBaoKhanh.png"><br>
 52 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7786560745714</longitude>
-				<latitude>21.06945557164834</latitude>
-				<altitude>0</altitude>
-				<heading>0.001689364542929886</heading>
-				<tilt>0</tilt>
-				<range>416.737071771934</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7775945055944,21.06974452307193,0</coordinates>
 			</Point>
 		</Placemark>
@@ -708,36 +404,16 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Cô Lô Nhuê Quán</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangCoLoNhue.png"><br>
 521 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7777014689771</longitude>
-				<latitude>21.06871658716523</latitude>
-				<altitude>0</altitude>
-				<heading>0.001346189467461693</heading>
-				<tilt>0</tilt>
-				<range>415.221394135087</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation0</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7770432799719,21.06847389839063,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Hương Quán</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuongQuan.png">]]></description>
-			<LookAt>
-				<longitude>105.7812727047464</longitude>
-				<latitude>21.06626005425938</latitude>
-				<altitude>0</altitude>
-				<heading>0.002713154114941341</heading>
-				<tilt>30.0010499738463</tilt>
-				<range>233.804297185363</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7809172991291,21.06614571114675,0</coordinates>
 			</Point>
 		</Placemark>
@@ -745,36 +421,16 @@ Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 			<name>Bia hơi Tuấn Ngọc</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/BiaHoiTuanNgoc.png"><br>
 Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7806768754447</longitude>
-				<latitude>21.06700826691036</latitude>
-				<altitude>0</altitude>
-				<heading>0.002498986954206967</heading>
-				<tilt>30.00105480148444</tilt>
-				<range>234.8790821667997</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation1</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7804635930722,21.06700438779355,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Bia hơi Hà Việt</name>
 			<description>513 Hoàng Công Chất, Cổ Nhuế, Bắc Từ Liêm, Hà Nội, Việt Nam</description>
-			<LookAt>
-				<longitude>105.7697787499917</longitude>
-				<latitude>21.04923824958952</latitude>
-				<altitude>0</altitude>
-				<heading>0.002390953325137805</heading>
-				<tilt>30.00091776924504</tilt>
-				<range>204.2158810421327</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation00</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7695053550701,21.0488542471881,0</coordinates>
 			</Point>
 		</Placemark>
@@ -899,18 +555,8 @@ Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
 			<name>Lẩu Nướng Than Hoa</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongThanHoa.png"><br>
 129 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.77385589206</longitude>
-				<latitude>21.07610288881892</latitude>
-				<altitude>0</altitude>
-				<heading>-0.2120777680942158</heading>
-				<tilt>26.48438938999977</tilt>
-				<range>1095.261153634132</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7728498,21.0747423,0</coordinates>
 			</Point>
 		</Placemark>
@@ -918,18 +564,8 @@ Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
 			<name>Lẩu Nướng Bay</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png"><br>
 103 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.773017348526</longitude>
-				<latitude>21.07457825574638</latitude>
-				<altitude>0</altitude>
-				<heading>-4.541377442520552</heading>
-				<tilt>5.361526731848369</tilt>
-				<range>239.2749754691376</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7733185,21.074759,0</coordinates>
 			</Point>
 		</Placemark>
@@ -937,18 +573,8 @@ Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
 			<name>Nướng BBQ Thái Hotpot</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png"><br>
 101 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.773017348526</longitude>
-				<latitude>21.07457825574638</latitude>
-				<altitude>0</altitude>
-				<heading>-4.541377442520552</heading>
-				<tilt>5.361526731848369</tilt>
-				<range>239.2749754691376</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.773346,21.074777,0</coordinates>
 			</Point>
 		</Placemark>
@@ -956,18 +582,8 @@ Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
 			<name>Nhà hàng Tuấn Béo</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTuanBeo.png"><br>
 B7 HV Tài Chính - 58 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.773017348526</longitude>
-				<latitude>21.07457825574638</latitude>
-				<altitude>0</altitude>
-				<heading>-4.541377442520552</heading>
-				<tilt>5.361526731848369</tilt>
-				<range>239.2749754691376</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7737135,21.0742474,0</coordinates>
 			</Point>
 		</Placemark>
@@ -975,36 +591,16 @@ B7 HV Tài Chính - 58 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Li�
 			<name>Quán Cay Đức Huệ</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCayDucHue.png"><br>
 Số 11, ngõ 85 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.7733079427146</longitude>
-				<latitude>21.07429353622853</latitude>
-				<altitude>0</altitude>
-				<heading>-4.541272950721706</heading>
-				<tilt>5.361526665140235</tilt>
-				<range>239.1954109958009</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.773362,21.07410555555555,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongCozi.png"><br>129 Lê Văn Hiến, Đông Ngạc, Từ Liêm, Hà Nội, Vietnam]]></description>
-			<LookAt>
-				<longitude>105.7765676136885</longitude>
-				<latitude>21.07450691676183</latitude>
-				<altitude>0</altitude>
-				<heading>-4.540100854634577</heading>
-				<tilt>5.36152808588571</tilt>
-				<range>240.8880342664646</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.777138,21.074318,0</coordinates>
 			</Point>
 		</Placemark>
@@ -1012,18 +608,8 @@ Số 11, ngõ 85 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN
 			<name>Nhà Hàng Tùng Lâm</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTungLam.png"><br>
 Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.7779933879841</longitude>
-				<latitude>21.07461804048348</latitude>
-				<altitude>0</altitude>
-				<heading>0.001368012468530648</heading>
-				<tilt>36.03585131383657</tilt>
-				<range>861.0255397120137</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.777305,21.07255,0</coordinates>
 			</Point>
 		</Placemark>
@@ -1031,18 +617,8 @@ Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
 			<name>Quán Huân Béo</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png"><br>
 33 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.7784312395655</longitude>
-				<latitude>21.07709334605122</latitude>
-				<altitude>0</altitude>
-				<heading>0.001525475941431641</heading>
-				<tilt>36.03584412790663</tilt>
-				<range>859.6657415948696</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.778257,21.08159444444444,0</coordinates>
 			</Point>
 		</Placemark>
@@ -1050,18 +626,8 @@ Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
 			<name>Vườn Bia Lẩu Nướng</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png"><br>
 45 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.7786370905065</longitude>
-				<latitude>21.07917790866149</latitude>
-				<altitude>0</altitude>
-				<heading>0.001599491819620634</heading>
-				<tilt>36.0371123731916</tilt>
-				<range>1099.67731057194</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.778065,21.080842,0</coordinates>
 			</Point>
 		</Placemark>
@@ -1069,18 +635,8 @@ Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
 			<name>Quán Cỏ</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCo.png"><br>
 68 Đức Thắng, Đông Ngạc, Hà Nội]]></description>
-			<LookAt>
-				<longitude>105.7779430968146</longitude>
-				<latitude>21.07568229738018</latitude>
-				<altitude>0</altitude>
-				<heading>0.00134995701573956</heading>
-				<tilt>36.03585146770499</tilt>
-				<range>861.0547400190608</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.777445,21.07529166666666,0</coordinates>
 			</Point>
 		</Placemark>
@@ -1088,39 +644,18 @@ Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
 			<name>Quán Hải Tiến</name>
 			<description><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HaiTien.png"><br>
 Số 27 Đường Đức Thắng, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
-			<LookAt>
-				<longitude>105.7769885351542</longitude>
-				<latitude>21.07445134510735</latitude>
-				<altitude>0</altitude>
-				<heading>-4.53954553239376</heading>
-				<tilt>7.982496877679794</tilt>
-				<range>219.6196707822709</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_beerLocation01</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.777292,21.074317,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>HUMG</name>
 			<description>18 Phố Viên, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</description>
-			<LookAt>
-				<longitude>105.7755312013372</longitude>
-				<latitude>21.07177047179439</latitude>
-				<altitude>0</altitude>
-				<heading>0.0003371315518312254</heading>
-				<tilt>28.93154327956886</tilt>
-				<range>638.3618101692979</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
 			<styleUrl>#msn_ranger_station</styleUrl>
 			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>105.7740594893274,21.07196577900526,0</coordinates>
 			</Point>
 		</Placemark>
-	</Folder>
 </Document>
 </kml>
