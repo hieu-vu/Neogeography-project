@@ -396,31 +396,5 @@
 			<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="placeFix38">
-		<name>Google West Campus 1</name>
-		<visibility>0</visibility>
-		<styleUrl>#west_campus_style</styleUrl>
-		<description>
-		<![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
-            allowfullscreen></iframe><br><br>]]>
-			</description>
-		<Point>
-			<coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="placeFix39">
-		<name>Google West Campus 2</name>
-		<visibility>0</visibility>
-		<styleUrl>#west_campus_style</styleUrl>
-		<description>
-		<![CDATA[<iframe width="480" height="360"
-            src="https://www.youtube.com/embed/nb4gvrNrDWw" frameborder="0"
-            allowfullscreen></iframe><br><br>]]>
-		</description>
-		<Point>
-			<coordinates>-122.0926995893311,37.42419403634421,0</coordinates>
-		</Point>
-	</Placemark>
 </Document>
 </kml>
