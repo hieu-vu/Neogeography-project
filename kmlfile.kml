@@ -17,7 +17,6 @@
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
-			<text>$[video]</text>
 		</BalloonStyle>
 	</Style>
 	<Placemark id="placeFix1">
