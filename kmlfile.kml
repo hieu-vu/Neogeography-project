@@ -1,479 +1,515 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2"
-  xmlns:gx="http://www.google.com/kml/ext/2.2">
-	<Document>
-		<name>KmlFile</name>
-		<Style id="sh_beerLocation">
-			<IconStyle>
-				<Icon>
-					<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
-				</Icon>
-			</IconStyle>
-		</Style>
-		<Style id="sh_ranger_station">
-			<IconStyle>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-				</Icon>
-			</IconStyle>
-		</Style>
-		<Placemark>
-			<name>Sài Gòn Hội Quán</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/SaiGonHoiQuan.png">]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Đặc sản Dê quay</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value><![CDATA[<img max-width="300px" src="https://v-hius.github.io/assets/img/storeFont/DacSanDeQuay.png">
-		Ngã Tư Đại học Mỏ - Địa Chất]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7773977764686,21.07134051765924,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Huy Lùn Quán</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuyLunQuan.png">]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7771598686676,21.07135772221823,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Thu Huyền Quán</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThuHuyenQuan.png">
-		535 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7773366923014,21.07089751801247,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Ngon Ngon</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanNgonNgon.png">
-		533 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7777168381421,21.07053024009993,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà Hàng Vinh Giang</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangVinhGiang.png">
-		476 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7782125375026,21.07023538032116,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà Hàng Bảo Khánh</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangBaoKhanh.png">
-		52 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7775945055944,21.06974452307193,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Cô Lô Nhuê Quán</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<open>1</open>
+	<Style id="sh_beerLocation">
+		<IconStyle>
+			<Icon>
+				<href>https://v-hius.github.io/assets/img/beerLocation.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="west_campus_style">
+		<IconStyle>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[video]</text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<name>Quán Hải Tiến</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
 			<Data>
-			<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangCoLoNhue.png">
-	521 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HaiTien.png">
+		Số 27 Đường Đức Thắng, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
 			</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7770432799719,21.06847389839063,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Hương Quán</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuongQuan.png">]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7809172991291,21.06614571114675,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bia hơi Tuấn Ngọc</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/BiaHoiTuanNgoc.png">
-		Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7804635930722,21.06700438779355,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bia hơi Hà Việt</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.777292,21.074317,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quán Cỏ</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
 			<Data>
-			<value>513 Hoàng Công Chất, Cổ Nhuế, Bắc Từ Liêm, Hà Nội, Việt Nam</value>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCo.png">
+		68 Đức Thắng, Đông Ngạc, Hà Nội]]></value>
 			</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7695053550701,21.0488542471881,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Buffet Garden</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>Số 15 Cầu Vồng, phường Đức Thắng</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.775585167031,21.07780277777778,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Reng Nướng</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>22 NGõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.775141262157,21.0776731587515,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nướng Bắc Cạn</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>1 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.775455382711,21.0775833280904,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nướng Sơn Béo CS3</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.775681600791,21.0781584423826,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Fin BBQ Buffet Nướng</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>34 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.774586754776,21.0775456248983,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Ốc Tài Chính</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>40 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.774133754359,21.0774409069886,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Chicken BBQ</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<Point>
-				<coordinates>105.774237198884,21.0774388367171,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lẩu Nướng Nam Định</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<Point>
-				<coordinates>105.773956072026,21.0768828476987,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Tom Kitchen</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>65 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.773632920548,21.0770147127435,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Fin House</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<Point>
-				<coordinates>105.773228579115,21.076876433438,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Bia Tùng Ngọc</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>Đường Sông Nhuệ, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.772267634593,21.0771382831632,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Ốc xứ Thanh</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>Đường Sông Nhuê, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.77226217084,21.0768025390266,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà Hàng Mộc Béo</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>149 Đường Sông Nhuệ, Phường Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.772351411329,21.0770396600874,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhuệ Giang Beer</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value>Đường Sông Nhuệ, Phường Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.771848003273,21.0781750497444,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà Hàng Kim Ngân</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value>61 Đường Sông Nhuệ, Xã Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.772046148819,21.0788998997527,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lẩu Nướng Than Hoa</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongThanHoa.png">
-		129 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7728498,21.0747423,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lẩu Nướng Bay</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
-		103 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7733185,21.074759,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nướng BBQ Thái Hotpot</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
-		101 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.773346,21.074777,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà hàng Tuấn Béo</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTuanBeo.png">
-		B7 HV Tài Chính - 58 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7737135,21.0742474,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Cay Đức Huệ</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCayDucHue.png">
-		Số 11, ngõ 85 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.773362,21.07410555555555,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongCozi.png">129 Lê Văn Hiến, Đông Ngạc, Từ Liêm, Hà Nội, Vietnam]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.777138,21.074318,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Nhà Hàng Tùng Lâm</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTungLam.png">
-			Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.777305,21.07255,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Huân Béo</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
-		33 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.778257,21.08159444444444,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Vườn Bia Lẩu Nướng</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.777445,21.07529166666666,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Vườn Bia Lẩu Nướng</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
 				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
 		45 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.778065,21.080842,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Cỏ</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCo.png">
-		68 Đức Thắng, Đông Ngạc, Hà Nội]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.777445,21.07529166666666,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Quán Hải Tiến</name>
-			<styleUrl>#sh_beerLocation</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HaiTien.png">
-		Số 27 Đường Đức Thắng, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.777292,21.074317,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>HUMG</name>
-			<styleUrl>#sh_ranger_station</styleUrl>
-			<ExtendedData>
-				<Data>
-					<value>18 Phố Viên, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>105.7740594893274,21.07196577900526,0</coordinates>
-			</Point>
-		</Placemark>
-	</Document>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.778065,21.080842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quán Huân Béo</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
+		33 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.778257,21.08159444444444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Hàng Tùng Lâm</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTungLam.png">
+			Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.777305,21.07255,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongCozi.png">129 Lê Văn Hiến, Đông Ngạc, Từ Liêm, Hà Nội, Vietnam]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.777138,21.074318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quán Cay Đức Huệ</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanCayDucHue.png">
+		Số 11, ngõ 85 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.773362,21.07410555555555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà hàng Tuấn Béo</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangTuanBeo.png">
+		B7 HV Tài Chính - 58 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7737135,21.0742474,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nướng BBQ Thái Hotpot</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
+		101 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.773346,21.074777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lẩu Nướng Bay</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
+		103 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7733185,21.074759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lẩu Nướng Than Hoa</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/LauNuongThanHoa.png">
+		129 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7728498,21.0747423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Hàng Kim Ngân</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>61 Đường Sông Nhuệ, Xã Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.772046148819,21.0788998997527,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhuệ Giang Beer</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>Đường Sông Nhuệ, Phường Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.771848003273,21.0781750497444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Hàng Mộc Béo</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>149 Đường Sông Nhuệ, Phường Đông Ngạc, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.772351411329,21.0770396600874,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ốc xứ Thanh</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>Đường Sông Nhuê, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.77226217084,21.0768025390266,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quán Bia Tùng Ngọc</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>Đường Sông Nhuệ, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.772267634593,21.0771382831632,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fin House</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<Point>
+			<coordinates>105.773228579115,21.076876433438,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tom Kitchen</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>65 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.773632920548,21.0770147127435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lẩu Nướng Nam Định</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<Point>
+			<coordinates>105.773956072026,21.0768828476987,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Chicken BBQ</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<Point>
+			<coordinates>105.774237198884,21.0774388367171,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ốc Tài Chính</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>40 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.774133754359,21.0774409069886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fin BBQ Buffet Nướng</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>34 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.774586754776,21.0775456248983,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nướng Sơn Béo CS3</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.775681600791,21.0781584423826,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nướng Bắc Cạn</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>1 Ngõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.775455382711,21.0775833280904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Reng Nướng</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>22 NGõ 1 Văn Hội, phường Đức Thắng, Bắc Từ Liêm, Hà Nội</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.775141262157,21.0776731587515,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Buffet Garden</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>Số 15 Cầu Vồng, phường Đức Thắng</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.775585167031,21.07780277777778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bia hơi Hà Việt</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value>513 Hoàng Công Chất, Cổ Nhuế, Bắc Từ Liêm, Hà Nội, Việt Nam</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7695053550701,21.0488542471881,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bia hơi Tuấn Ngọc</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/BiaHoiTuanNgoc.png">
+		Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7804635930722,21.06700438779355,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hương Quán</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuongQuan.png">]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7809172991291,21.06614571114675,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cô Lô Nhuê Quán</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangCoLoNhue.png">
+	521 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7770432799719,21.06847389839063,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Hàng Bảo Khánh</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangBaoKhanh.png">
+		52 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7775945055944,21.06974452307193,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Hàng Vinh Giang</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/NhaHangVinhGiang.png">
+		476 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7782125375026,21.07023538032116,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quán Ngon Ngon</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/QuanNgonNgon.png">
+		533 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7777168381421,21.07053024009993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Thu Huyền Quán</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/ThuHuyenQuan.png">
+		535 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7773366923014,21.07089751801247,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Huy Lùn Quán</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/HuyLunQuan.png">]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7771598686676,21.07135772221823,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Đặc sản Dê quay</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img max-width="300px" src="https://v-hius.github.io/assets/img/storeFont/DacSanDeQuay.png">
+		Ngã Tư Đại học Mỏ - Địa Chất]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7773977764686,21.07134051765924,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sài Gòn Hội Quán</name>
+		<styleUrl>#sh_beerLocation</styleUrl>
+		<ExtendedData>
+			<Data>
+				<value><![CDATA[<img src="https://v-hius.github.io/assets/img/storeFont/SaiGonHoiQuan.png">]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Google West Campus 1</name>
+		<visibility>0</visibility>
+		<styleUrl>#west_campus_style</styleUrl>
+		<ExtendedData>
+			<Data name="video">
+				<value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/ZE8ODPL2VPI" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-122.0914977709329,37.42390182131783,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Google West Campus 2</name>
+		<visibility>0</visibility>
+		<styleUrl>#west_campus_style</styleUrl>
+		<ExtendedData>
+			<Data name="video">
+				<value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/nb4gvrNrDWw" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-122.0926995893311,37.42419403634421,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Google West Campus 3</name>
+		<visibility>0</visibility>
+		<styleUrl>#west_campus_style</styleUrl>
+		<ExtendedData>
+			<Data name="video">
+				<value><![CDATA[<iframe width="480" height="360"
+            src="https://www.youtube.com/embed/0hhiEjf7_NA" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-122.0922532985281,37.42301710721216,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
 </kml>
