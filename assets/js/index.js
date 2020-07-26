@@ -1,5 +1,6 @@
+//init map with autocomplete search
 function initMap() {
-  mapOptions = {
+  var mapOptions = {
     center: { lat: 21.0717671, lng: 105.7740281 },
     zoom: 15,
     mapTypeId: 'terrain',
@@ -15,7 +16,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('content-wrapper'), mapOptions);
 
   var kmlLayer = new google.maps.KmlLayer({
-    url: "https://v-hius.github.io/KmlFile.kml",
+    url: 'https://v-hius.github.io/kmlfile.kml',
     //suppressInfoWindows: true,
     map: map
   });
