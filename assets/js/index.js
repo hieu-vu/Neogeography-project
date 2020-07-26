@@ -1,43 +1,34 @@
 function initMap() {
   mapOptions = {
-          center: { lat: 21.0717671, lng: 105.7740281 },
-          zoom: 15,
-          mapTypeId: 'terrain',
-          streetViewControl: false,
-          fullscreenControl: false,
-          mapTypeControlOptions: {
-              position: google.maps.ControlPosition.TOP_RIGHT
-          },
-          zoomControlOptions: {
-              position: google.maps.ControlPosition.RIGHT_BOTTOM
-          }
+    center: { lat: 21.0717671, lng: 105.7740281 },
+    zoom: 15,
+    mapTypeId: 'terrain',
+    streetViewControl: false,
+    fullscreenControl: false,
+    mapTypeControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.RIGHT_BOTTOM
+    }
   };
   var map = new google.maps.Map(document.getElementById('content-wrapper'), mapOptions);
 
   var kmlLayer = new google.maps.KmlLayer({
-        url: "https://v-hius.github.io/kmlfile.kml",
-        //suppressInfoWindows: true,
-        map: map
-      });
-/*
-  var infowindow = new google.maps.InfoWindow({
-    content: "Test"
+    url: "https://v-hius.github.io/KmlFile.kml",
+    //suppressInfoWindows: true,
+    map: map
   });
-*/
-  var myMarker = new google.maps.Marker(
-      {
-          animation: google.maps.Animation.DROP,
-          map: map
-      });
-/*
-  kmlLayer.addListener('click', function() {
-    infowindow.open(map, myMarker);
+
+  var myMarker = new google.maps.Marker({
+    animation: google.maps.Animation.DROP,
+    map: map
   });
-  */
-  //Your Location
+
+//Your Location
   addYourLocationButton(map, myMarker);
 
-  //Search Place
+//Search Place
   //addSearchButton();
   searchPlace(map);
 }
@@ -75,6 +66,7 @@ function addYourLocationButton(map, marker) {
               var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
               marker.setPosition(latlng);
               map.setCenter(latlng);
+              map.setZoom(18);
           });
       }
       else {
