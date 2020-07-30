@@ -23,10 +23,10 @@
 
     <style>
         .fa {
-            margin-right: 10px;
-            padding: 20px;
+            margin-right: 5px;
+            padding: 10px;
             font-size: 20px;
-            width: 60px;
+            width: 40px;
             text-align: center;
             text-decoration: none;
             border-radius: 50%;
@@ -50,6 +50,12 @@
             background: #55ACEE;
             color: white;
         }
+        p {
+            font-size: 30px;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
 </style>
 
 </head>
@@ -66,20 +72,27 @@
                     <div class="input-group"></div>
                 </form>
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
-                        <a
-                            class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
                 </ul>               
-                <div class="g-signin2" data-onsuccess="onSignIn"></div></div>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <div class="container-fluid text-white">
                     <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Tài khoản</h1>
                 </div>
+                <button class="btn" style="margin-left: 36px; border: none; background-color: crimson; height: 36px; border-radius: 0.5rem;">
+                    <a style="color: white;" href="profile.html" onclick="signOut();">Đăng xuất</a>
+                </button>
                 <div class="container-fluid" style="margin-top: 20px;">
                     <div class="row mb-3">
                             <div class="col">
@@ -92,40 +105,24 @@
                                             <form>
                                                 <div class="form-row">
                                                     <div class="row">
-                                                        <div class="text-center" style="padding-bottom: 10px; width: 320px;"><img id="imageUser" class="rounded-circle mb-3 mt-4" src="assets/img/H.png" width="160" height="160">
-                                                                <div class="form-group"><h3 id="nameUser">Tên người dùng</h3></div>
+                                                        <div class="text-center" style="padding-top: 10px; width: 330px;"><img id="imageUser" class="rounded-circle mb-3 mt-4" src="assets/img/H.png" width="190" height="190">
+                                                                <div class="form-group"><p id="nameUser">_</p></div>
                                                         </div>
                                                     </div>
                                                     <div class="col">
-                                                    <div class="form-group"><label for="first_name"><strong>ID</strong></label><h3 id="idUser">888888888</h3></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Địa chỉ email</strong></label><h3 id="emailUser">h.h.haiduog@gmail.com</h3></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Đã đánh giá</strong></label><h3 id="reviewUser">_</h3></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Địa điểm đã thêm</strong></label><h3 id="addPlaceUser">_</h3></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Rank</strong></label><h3 id="rankUser">_</h3></div>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="card shadow">
-                                        <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">Thông tin liên hệ</p>
-                                        </div>
-                                        <div class="card-body" style="height: 367px;">
-                                            <form>
-                                                <div class="form-group"><label for="address"><strong>Địa chỉ</strong><br></label><h3>Bắc Từ Liêm</h3></div>
-                                                <div class="form-row">
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="city"><strong>Thành phố</strong></label><h3>Hà Nội</h3></div>
-                                                        <div class="form-group"><label for="country"><strong>Quốc gia</strong></label><h3>Việt Nam</h3></div>
-                                                        <div class="form-group"><label for="country"><strong>Mạng xã hội</strong></label>
+                                                    <div class="form-group"><label for="first_name"><strong>ID</strong></label><p id="idUser">_</p></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Địa chỉ email</strong></label><p id="emailUser">_</p></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Đã đánh giá</strong></label><p id="reviewUser">_</p></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Địa điểm đã thêm</strong></label><p id="addPlaceUser">_</p></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Rank</strong></label><p id="rankUser">_</p></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Liên hệ</strong></label>
                                                             <div>
                                                                 <a href="https://facebook.com" class="fa fa-facebook"></a>
                                                                 <a href="https://twitter.com" class="fa fa-twitter"></a>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
                                                 </div>
                                             </form>
                                         </div>
@@ -134,21 +131,24 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        /*
+    <script>  
         function onSignIn(googleUser) {
             var profile = googleUser.getBasicProfile();
-            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-            console.log('Name: ' + profile.getName());
-            console.log('Image URL: ' + profile.getImageUrl());
-            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+            document.getElementById("idUser").innerHTML = profile.getId();
+            document.getElementById("nameUser").innerHTML = profile.getName();
+            document.getElementById("imageUser").innerHTML = profile.getImageUrl();
+            document.getElementById("emailUser").innerHTML = profile.getEmail();
         }
-        */
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+            console.log('User signed out.');
+            });
+        }
     </script>
     <script src="assets/js/signIn.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
