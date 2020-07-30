@@ -5,7 +5,6 @@ function init() {
         });
 
         // auth2 is initialized with gapi.auth2.init() and a user is signed in.
-        /*
         if (auth2.isSignedIn.get()) {
             var profile = auth2.currentUser.get().getBasicProfile();
             document.getElementById("idUser").innerHTML = profile.getId();
@@ -13,6 +12,5 @@ function init() {
             document.getElementById("imageUser").innerHTML = profile.getImageUrl();
             document.getElementById("emailUser").innerHTML = profile.getEmail();
         }
-        */
     });
 }
