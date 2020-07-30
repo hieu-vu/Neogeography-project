@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="google-signin-client_id" content="807397581165-8lkv1rllj4qv7gkftvc2dfhh913j3uhs.apps.googleusercontent.com">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Cài đặt - Beer Map</title>
@@ -16,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/Icon-Input.css">
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="assets/css/x-dropdown.css">
+
+    <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </head>
 
 <body id="page-top">
@@ -36,8 +39,8 @@
                             class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-settings"></i><span>Cài đặt</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
-                </ul>
-            </div>
+                </ul>               
+                <div class="g-signin2" data-onsuccess="onSignIn"></div></div>
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
@@ -177,10 +180,22 @@
             </div>
         </div>
     </div>
+    <script>
+        /*
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+        */
+    </script>
+    <script src="assets/js/signIn.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
-
 </html>

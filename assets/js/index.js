@@ -26,6 +26,13 @@ function initMap() {
     map: map
   });
 
+/*New place marker for beer location
+  var icon = 'icon.png';
+  var coords = {lat: 21.07, lng: 105.77};//toa do quan bia
+  var beerMarker = new google.maps.Marker(coords, {
+    icon:icon
+  });
+*/
 //Your Location
   addYourLocationButton(map, myMarker);
 
