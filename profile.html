@@ -5,7 +5,7 @@
     <meta name="google-signin-client_id" content="807397581165-8lkv1rllj4qv7gkftvc2dfhh913j3uhs.apps.googleusercontent.com">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Cài đặt - Beer Map</title>
+    <title>Tài khoản - Beer Map</title>
     <link rel="icon" href="assets/img/beerMap.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -17,8 +17,41 @@
     <link rel="stylesheet" href="assets/css/Icon-Input.css">
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="assets/css/x-dropdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+
+    <style>
+        .fa {
+            margin-right: 10px;
+            padding: 20px;
+            font-size: 20px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+</style>
+
 </head>
 
 <body id="page-top">
@@ -38,136 +71,62 @@
                         <a
                             class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-settings"></i><span>Cài đặt</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a><a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
                 </ul>               
                 <div class="g-signin2" data-onsuccess="onSignIn"></div></div>
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <div class="container-fluid text-white">
-                    <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Cài đặt</h1>
+                    <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Tài khoản</h1>
                 </div>
                 <div class="container-fluid" style="margin-top: 20px;">
                     <div class="row mb-3">
-                        <div class="col-lg-4" style="height: 672px;">
-                            <div class="card mb-3">
-                                <div class="card-body text-center shadow" style="padding-bottom: 49px;"><img class="rounded-circle mb-3 mt-4" src="assets/img/H.png" width="160" height="160">
-                                    <div class="mb-3"><button class="btn btn-primary btn-sm" type="button">Thay ảnh</button></div>
-                                </div>
-                            </div>
-                            <div class="card shadow border-left-warning py-2" style="margin-top: 2px;">
-                                <div class="card-body">
-                                    <div class="row align-items-center no-gutters">
-                                        <div class="col mr-2">
-                                            <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Đánh giá</span></div>
-                                            <div class="text-dark font-weight-bold h5 mb-0"><span>18</span></div>
-                                        </div>
-                                        <div class="col-auto"><i class="icon ion-android-create fa-2x text-gray-300"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card shadow border-left-info py-2" style="margin: 0px;margin-top: 5px;">
-                                <div class="card-body">
-                                    <div class="row align-items-center no-gutters">
-                                        <div class="col mr-2">
-                                            <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Địa Điểm đã thêm</span></div>
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="col-auto">
-                                                    <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>50</span></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto"><i class="icon ion-android-pin fa-2x text-gray-300"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card shadow border-left-primary py-2" style="margin-top: 8px;">
-                                <div class="card-body">
-                                    <div class="row align-items-center no-gutters">
-                                        <div class="col mr-2">
-                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>ID</span></div>
-                                            <div class="text-dark font-weight-bold h5 mb-0"><span>88888888</span></div>
-                                        </div>
-                                        <div class="col-auto"><i class="far fa-address-card fa-2x text-gray-300"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="row mb-3 d-none">
-                                <div class="col">
-                                    <div class="card text-white bg-primary shadow">
-                                        <div class="card-body">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="m-0">Peformance</p>
-                                                    <p class="m-0"><strong>65.2%</strong></p>
-                                                </div>
-                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                            </div>
-                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card text-white bg-success shadow">
-                                        <div class="card-body">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="m-0">Peformance</p>
-                                                    <p class="m-0"><strong>65.2%</strong></p>
-                                                </div>
-                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                            </div>
-                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
+                            <div class="col">
                                 <div class="col">
                                     <div class="card shadow mb-3">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">User Settings</p>
+                                            <p class="text-primary m-0 font-weight-bold">Thông tin chung</p>
                                         </div>
                                         <div class="card-body">
                                             <form>
                                                 <div class="form-row">
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="username"><strong>Tên người dùng</strong></label><input class="form-control" type="text" placeholder="user name" name="username"></div>
+                                                    <div class="row">
+                                                        <div class="text-center" style="padding-bottom: 10px; width: 320px;"><img id="imageUser" class="rounded-circle mb-3 mt-4" src="assets/img/H.png" width="160" height="160">
+                                                                <div class="form-group"><h3 id="nameUser">Tên người dùng</h3></div>
+                                                        </div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="form-group"><label for="email"><strong>Địa chỉ email</strong><br></label><input class="form-control" type="email" placeholder="user@example.com" name="email"></div>
+                                                    <div class="form-group"><label for="first_name"><strong>ID</strong></label><h3 id="idUser">888888888</h3></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Địa chỉ email</strong></label><h3 id="emailUser">h.h.haiduog@gmail.com</h3></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Đã đánh giá</strong></label><h3 id="reviewUser">_</h3></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Địa điểm đã thêm</strong></label><h3 id="addPlaceUser">_</h3></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Rank</strong></label><h3 id="rankUser">_</h3></div>
                                                     </div>
+                                                    
                                                 </div>
-                                                <div class="form-row">
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="first_name"><strong>Họ</strong></label><input class="form-control" type="text" placeholder="Vũ" name="first_name"></div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="last_name"><strong>Tên</strong><br></label><input class="form-control" type="text" placeholder="Hiếu" name="last_name"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Lưu cài đặt</button></div>
                                             </form>
                                         </div>
                                     </div>
                                     <div class="card shadow">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">Cài đặt liên hệ</p>
+                                            <p class="text-primary m-0 font-weight-bold">Thông tin liên hệ</p>
                                         </div>
-                                        <div class="card-body" style="height: 267px;">
+                                        <div class="card-body" style="height: 367px;">
                                             <form>
-                                                <div class="form-group"><label for="address"><strong>Địa chỉ</strong><br></label><input class="form-control" type="text" placeholder="Số nhà, ngõ,..." name="address"></div>
+                                                <div class="form-group"><label for="address"><strong>Địa chỉ</strong><br></label><h3>Bắc Từ Liêm</h3></div>
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="city"><strong>Thành phố</strong></label><input class="form-control" type="text" placeholder="Hà Nội" name="city"></div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="country"><strong>Quốc gia</strong></label><input class="form-control" type="text" placeholder="Việt Nam" name="country"></div>
+                                                        <div class="form-group"><label for="city"><strong>Thành phố</strong></label><h3>Hà Nội</h3></div>
+                                                        <div class="form-group"><label for="country"><strong>Quốc gia</strong></label><h3>Việt Nam</h3></div>
+                                                        <div class="form-group"><label for="country"><strong>Mạng xã hội</strong></label>
+                                                            <div>
+                                                                <a href="https://facebook.com" class="fa fa-facebook"></a>
+                                                                <a href="https://twitter.com" class="fa fa-twitter"></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Lưu cài đặt</button></div>
                                             </form>
                                         </div>
                                     </div>
@@ -175,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card shadow mb-5"></div>
+
                 </div>
             </div>
         </div>
