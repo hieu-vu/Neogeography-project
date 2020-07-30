@@ -9,7 +9,7 @@ function init() {
             var profile = auth2.currentUser.get().getBasicProfile();
             document.getElementById("idUser").innerHTML = profile.getId();
             document.getElementById("nameUser").innerHTML = profile.getName();
-            document.getElementById("imageUser").innerHTML = profile.getImageUrl();
+            document.getElementById("imageUser").src = profile.getImageUrl();
             document.getElementById("emailUser").innerHTML = profile.getEmail();
         }
     });

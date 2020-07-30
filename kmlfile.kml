@@ -11,7 +11,7 @@
 	</Style>
 	<Placemark id="placeFix1">
 		<name>Quán Hải Tiến</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/HaiTien.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/HaiTien.png">
 		Số 27 Đường Đức Thắng, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -20,7 +20,7 @@
 	</Placemark>
 	<Placemark id="placeFix2">
 		<name>Quán Cỏ</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/QuanCo.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/QuanCo.png">
 		68 Đức Thắng, Đông Ngạc, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -29,7 +29,7 @@
 	</Placemark>
 	<Placemark id="placeFix3">
 		<name>Vườn Bia Lẩu Nướng</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
 		45 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -38,7 +38,7 @@
 	</Placemark>
 	<Placemark id="placeFix4">
 		<name>Quán Huân Béo</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/VuonBia.png">
 		33 Đường Đức Thắng, Đông Ngạc, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -47,7 +47,7 @@
 	</Placemark>
 	<Placemark id="placeFix5">
 		<name>Nhà Hàng Tùng Lâm</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangTungLam.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangTungLam.png">
 			Tổ Dân Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -56,7 +56,7 @@
 	</Placemark>
 	<Placemark id="placeFix6">
 		<name>Cozi Lẩu Nướng Bia Hàn Quốc</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/LauNuongCozi.png">129 Lê Văn Hiến, Đông Ngạc, Từ Liêm, Hà Nội, Vietnam]]></description>
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/LauNuongCozi.png">129 Lê Văn Hiến, Đông Ngạc, Từ Liêm, Hà Nội, Vietnam]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.777138,21.074318,0</coordinates>
@@ -64,7 +64,7 @@
 	</Placemark>
 	<Placemark id="placeFix7">
 		<name>Quán Cay Đức Huệ</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/QuanCayDucHue.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/QuanCayDucHue.png">
 		Số 11, ngõ 85 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark id="placeFix8">
 		<name>Nhà hàng Tuấn Béo</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangTuanBeo.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangTuanBeo.png">
 		B7 HV Tài Chính - 58 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -82,7 +82,7 @@
 	</Placemark>
 	<Placemark id="placeFix9">
 		<name>Nướng BBQ Thái Hotpot</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
 		101 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -91,7 +91,7 @@
 	</Placemark>
 	<Placemark id="placeFix10">
 		<name>Lẩu Nướng Bay</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/ThaiHotpot.png">
 		103 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -100,7 +100,7 @@
 	</Placemark>
 	<Placemark id="placeFix11">
 		<name>Lẩu Nướng Than Hoa</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/LauNuongThanHoa.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/LauNuongThanHoa.png">
 		129 Lê Văn Hiến, phường Đức Thắng, Bắc Từ Liêm, HN]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -237,7 +237,7 @@
 	</Placemark>
 	<Placemark id="placeFix28">
 		<name>Bia hơi Tuấn Ngọc</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/BiaHoiTuanNgoc.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/BiaHoiTuanNgoc.png">
 		Khu Đô thị Resco Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -246,7 +246,7 @@
 	</Placemark>
 	<Placemark id="placeFix29">
 		<name>Hương Quán</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/HuongQuan.png">]]></description>
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/HuongQuan.png">]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.7809172991291,21.06614571114675,0</coordinates>
@@ -254,7 +254,7 @@
 	</Placemark>
 	<Placemark id="placeFix30">
 		<name>Cô Lô Nhuê Quán</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangCoLoNhue.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangCoLoNhue.png">
 	521 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -263,7 +263,7 @@
 	</Placemark>
 	<Placemark id="placeFix31">
 		<name>Nhà Hàng Bảo Khánh</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangBaoKhanh.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangBaoKhanh.png">
 		52 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -272,7 +272,7 @@
 	</Placemark>
 	<Placemark id="placeFix32">
 		<name>Nhà Hàng Vinh Giang</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangVinhGiang.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/NhaHangVinhGiang.png">
 		476 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -281,7 +281,7 @@
 	</Placemark>
 	<Placemark id="placeFix33">
 		<name>Quán Ngon Ngon</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/QuanNgonNgon.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/QuanNgonNgon.png">
 		533 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -290,7 +290,7 @@
 	</Placemark>
 	<Placemark id="placeFix34">
 		<name>Thu Huyền Quán</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/ThuHuyenQuan.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/ThuHuyenQuan.png">
 		535 Cổ Nhuế, Bắc Từ Liêm, Hà Nội]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -299,7 +299,7 @@
 	</Placemark>
 	<Placemark id="placeFix35">
 		<name>Huy Lùn Quán</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/HuyLunQuan.png">]]></description>
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/HuyLunQuan.png">]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.7771598686676,21.07135772221823,0</coordinates>
@@ -307,7 +307,7 @@
 	</Placemark>
 	<Placemark id="placeFix36">
 		<name>Đặc sản Dê quay</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/DacSanDeQuay.png">
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/DacSanDeQuay.png">
 		Ngã Tư Đại học Mỏ - Địa Chất]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
@@ -316,7 +316,7 @@
 	</Placemark>
 	<Placemark id="placeFix37">
 		<name>Sài Gòn Hội Quán</name>
-		<description><![CDATA[<img style="max-width: 20%; max-height: 20%;" src="https://v-hius.github.io/assets/img/storeFont/SaiGonHoiQuan.png">]]></description>
+		<description><![CDATA[<img style="max-width:250px;" src="https://v-hius.github.io/assets/img/storeFont/SaiGonHoiQuan.png">]]></description>
 		<styleUrl>#sh_beerLocation</styleUrl>
 		<Point>
 			<coordinates>105.7776977416647,21.07137088371514,0</coordinates>
