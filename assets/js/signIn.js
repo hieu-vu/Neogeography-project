@@ -5,6 +5,7 @@ function init() {
         });
 
         // auth2 is initialized with gapi.auth2.init() and a user is signed in.
+        /*
         if (auth2.isSignedIn.get()) {
             var profile = auth2.currentUser.get().getBasicProfile();
             document.getElementById("idUser").innerHTML = profile.getId();
@@ -12,14 +13,21 @@ function init() {
             document.getElementById("imageUser").innerHTML = profile.getImageUrl();
             document.getElementById("emailUser").innerHTML = profile.getEmail();
         }
+        */
     });
 }
-/*
+//Lấy thông tin người dùng
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
-    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-    console.log('Name: ' + profile.getName());
-    console.log('Image URL: ' + profile.getImageUrl());
-    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    document.getElementById("idUser").innerHTML = profile.getId();
+    document.getElementById("nameUser").innerHTML = profile.getName();
+    document.getElementById("imageUser") = profile.getImageUrl();
+    document.getElementById("emailUser").innerHTML = profile.getEmail();
 }
-*/
+//Đăng xuất
+function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+    console.log('User signed out.');
+    });
+}
