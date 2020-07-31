@@ -1,18 +1,19 @@
 <?php
-
-    $connect = mysqli_connect("localhost", "root", "");
-    if (!connect) { 
-        die('Connection Failed: ' . mysqli_error()); 
+    $hostname = 'localhost';
+    $username = 'mysql.sys';
+    $password = '';
+    $dbname = "test";
+    $connect = mysqli_connect($hostname, $username, $password);
+    if (!$connect) { 
+        die('Kết nối không thành công!' . mysqli_error()); 
+        exit();
     }
-    mysqli_select_db("test", $connect);
+    mysqli_select_db($connect, $dbname);
+    //Insert table
+    $add_place = "INSERT INTO addplace (id, tendiadiem, diachi) VALUES ('$_POST[nCoordinate]', '$_POST[nPlace]', '$_POST[nAddress]')";//, '$_POST[nCoordinate]'
+    mysqli_query($connect, $add_place);
+    mysqli_close($connect);
 ?>
 <?php
-    //Insert INTO
-
-    $add_place = "INSERT INTO addPace (id ,tendiadiem, diachi) VALUES ('$_POST[nID]' ,'$_POST[nPlace]', '$_POST[nAddress]')";//, '$_POST[nCoordinate]'
-    if('$_POST[btn-submit]') {
-        mysqli_query($add_place, $connect);
-    }
-    echo 'Thêm điểm thành công';
-    mysqli_close($connect);
+echo 'Thêm điểm thành công';
 ?>
