@@ -31,20 +31,16 @@
             text-decoration: none;
             border-radius: 50%;
         }
-
         /* Add a hover effect if you want */
         .fa:hover {
             opacity: 0.7;
         }
-
         /* Set a specific color for each brand */
-
         /* Facebook */
         .fa-facebook {
             background: #3B5998;
             color: white;
         }
-
         /* Twitter */
         .fa-twitter {
             background: #55ACEE;
@@ -78,31 +74,28 @@
                         <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
                         <a class="nav-link" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
                         <a class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
-                    </li>
-                    <li class="nav-item" role="presentation">
                         <a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a></li>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a>
+                    </li>
                 </ul>               
                 <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <div><input class="btn btn-danger" type="reset" value="Đăng xuất" style="color: white; margin-top: 40px;" onclick="signOut();"></div>
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <div class="container-fluid text-white">
                     <h1 class="text-center text-primary mb-1" data-aos="zoom-in-down">Tài khoản</h1>
                 </div>
-                <button class="btn" style="margin-left: 36px; border: none; background-color: crimson; height: 36px; border-radius: 0.5rem;">
-                    <a style="color: white;" href="profile.html" onclick="signOut();">Đăng xuất</a>
-                </button>
                 <div class="container-fluid" style="margin-top: 20px;">
                     <div class="row mb-3">
                             <div class="col">
                                 <div class="col">
                                     <div class="card shadow mb-3">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">Thông tin chung</p>
-                                        </div>
+                                            <p class="text-primary m-0 font-weight-bold">Thông tin chung</p>      
+                                        </div>                                        
                                         <div class="card-body">
-                                            <form>
+                                            <form action="assets/php/connectd.php" method="POST">    
                                                 <div class="form-row">
                                                     <div class="row">
                                                         <div class="text-center" style="padding-top: 10px; width: 330px;"><img id="imageUser" class="rounded-circle mb-3 mt-4"  width="190" height="190">
@@ -110,19 +103,22 @@
                                                         </div>
                                                     </div>
                                                     <div class="col">
-                                                    <div class="form-group"><label for="first_name"><strong>ID</strong></label><p id="idUser">_</p></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Địa chỉ email</strong></label><p id="emailUser">_</p></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Đã đánh giá</strong></label><p id="reviewUser">_</p></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Địa điểm đã thêm</strong></label><p id="addPlaceUser">_</p></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Rank</strong></label><p id="rankUser">_</p></div>
-                                                        <div class="form-group"><label for="first_name"><strong>Liên hệ</strong></label>
+                                                        <div class="form-group">
+                                                            <label for="first_name"><strong>ID</strong></label>   <p name="nID" id="idUser">_</p></div>
+                                                        <div class="form-group">
+                                                            <label for="first_name"><strong>Địa chỉ email</strong></label>   <p id="emailUser">_</p></div>
+                                                        <div class="form-group">
+                                                            <label for="first_name"><strong>Đã đánh giá</strong></label>   <p id="reviewUser">_</p></div>
+                                                        <div class="form-group">
+                                                            <label for="first_name"><strong>Địa điểm đã thêm</strong></label>   <p id="addPlaceUser">_</p></div>
+                                                        <div class="form-group">
+                                                            <label for="first_name"><strong>Liên hệ</strong></label>
                                                             <div>
                                                                 <a href="https://facebook.com" class="fa fa-facebook"></a>
                                                                 <a href="https://twitter.com" class="fa fa-twitter"></a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    
                                                 </div>
                                             </form>
                                         </div>
