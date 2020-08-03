@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="assets/css/x-dropdown.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/login-popup.css">
 
     <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 
@@ -52,6 +53,11 @@
         .btn:hover {
             opacity: 0.8;
         }
+        input {
+            margin-top: 10px;
+            width: 120px;
+            height: 36px;           
+        }
 </style>
 
 </head>
@@ -69,17 +75,44 @@
                 </form>
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="index.php"><i class="material-icons">place</i><span>Địa điểm</span></a></li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
-                        <a class="nav-link active" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.php"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="review.php"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="manage.php"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
+                        <a class="nav-link active" data-bs-hover-animate="pulse" href="profile.php"><i class="icon-user"></i><span>Tài khoản</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.php"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a>
                     </li>
-                </ul>               
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                <div><input class="btn" type="reset" value="Đăng xuất" style="color:crimson; margin-top: 30px; width: 120px; height: 36px;" onclick="signOut();window.location.reload();"></div>
+                </ul>
+                <div class="g-signin2" data-onsuccess="onSignIn" ></div>
+                <div><input class="btn btn-lg" id="login-popup" type="submit" value="Đăng nhập" style="background-color:rgb(28, 186, 107); color: white; font-size: 14px; border-radius: 0.1rem;" onclick="openFormLogin();closeFormSignup();"></div>
+                <div><input class="btn btn-lg" type="submit" value="Đăng ký" style=" color: white; font-size: 14px; border-radius: 0.1rem;" onclick="openFormSignUp();closeFormLogin();"></div>
+                <div><input class="btn btn-lg" type="reset" value="Đăng xuất" style="color:crimson; font-size: 14px; border-radius: 0.1rem;" onclick="signOut();window.location.reload();"></div>
+                <div class="form-popup" id="loginForm">
+
+                    <form action="assets/php/login.php" id="login-form" name="login-form" class="form-container" method="POST">
+                        <p id="noti-login" style="color:red; font-size: 16px;"></p>
+                        <input type="text" placeholder="Tài khoản" id="user" name="user" >
+                        <input type="password" placeholder="Mật khẩu" id="psw" name="psw">
+
+                        <input type="submit" value="Đăng nhập" style="font-size: 16px;" class="btn" id="btn_login" onclick="SubFormLogin();return false">
+                        <input type="reset" value="Huỷ" style="font-size: 16px;" class="btn cancel" id="btn-close" onclick="closeFormLogin();">
+                    </form>
+
+                </div>
+                <div class="form-popup" id="signUpForm">
+
+                    <form action="assets/php/signup.php" id="signup-form" class="form-container" method="POST">
+                        <p id="noti-signup" style="color:red; font-size: 16px;"></p>
+                        <input type="text" placeholder="Email" id="newemail" name="newemail" required>
+                        <input type="text" placeholder="Tài khoản" id="newuser" name="newuser" required>
+                        <input type="password" placeholder="Mật khẩu" id="newpsw" name="newpsw" required>
+
+                        <input type="submit" value="Đăng ký" style="font-size: 16px;" class="btn" id="btn_signup" onclick="SubFormSignUp();return false">
+                        <input type="reset" value="Huỷ" style="font-size: 16px;" class="btn cancel" id="btn-close" onclick="closeFormSignup();">
+                    </form>
+
+                </div>
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
@@ -95,7 +128,7 @@
                                             <p class="text-primary m-0 font-weight-bold">Thông tin chung</p>      
                                         </div>                                        
                                         <div class="card-body">
-                                            <form action="assets/php/connectd.php" method="POST">    
+                                            <form action="assets/php/login.php" method="POST">
                                                 <div class="form-row">
                                                     <div class="row">
                                                         <div class="text-center" style="padding-top: 10px; width: 330px;">
@@ -132,23 +165,25 @@
             </div>
         </div>
     </div>
-    <script>  
-        //Lấy thông tin người dùng
-        function onSignIn(googleUser) {
-            var profile = googleUser.getBasicProfile();
-            document.getElementById("idUser").innerHTML = profile.getId();
-            document.getElementById("nameUser").innerHTML = profile.getName();
-            document.getElementById("imageUser").src = profile.getImageUrl();
-            document.getElementById("emailUser").innerHTML = profile.getEmail();
+    <script>
+        function SubFormLogin() {
+            $.ajax({
+                url:'assets/php/login.php',
+                type:'post',
+                data:$('#login-form').serialize()
+            });
         }
-        //Đăng xuất
-        function signOut() {
-            var auth2 = gapi.auth2.getAuthInstance();
-            auth2.signOut().then(function () {
-            console.log('User signed out.');
+
+        function SubFormSignUp() {
+            $.ajax({
+                url:'assets/php/signup.php',
+                type:'post',
+                data:$('#signup-form').serialize()
             });
         }
     </script>
+    <script src="assets/js/dbconnect.js"></script>
+    <script src="assets/js/profile.js"></script>
     <script src="assets/js/signIn.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="assets/js/jquery.min.js"></script>
