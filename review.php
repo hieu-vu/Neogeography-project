@@ -1,3 +1,7 @@
+<?php
+    require_once('assets/php/connectd.php');
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -18,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/Icon-Input.css">
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="assets/css/x-dropdown.css">
+    <link rel="stylesheet" href="assets/css/login-popup.css">
 </head>
 
 <body id="page-top">
@@ -35,16 +40,29 @@
                 </form>
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="index.html"><i class="material-icons">place</i><span>Địa điểm</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="index.php"><i class="material-icons">place</i><span>Địa điểm</span></a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.html"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
-                        <a class="nav-link active" data-bs-hover-animate="pulse" href="review.html"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="manage.html"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="profile.html"><i class="icon-user"></i><span>Tài khoản</span></a>
-                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.html"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="addplace.php"><i class="material-icons">add_location</i><span>Thêm địa điểm</span></a>
+                        <a class="nav-link active" data-bs-hover-animate="pulse" href="review.php"><i class="material-icons">speaker_notes</i><span>Đánh giá</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="manage.php"><i class="typcn typcn-th-large-outline"></i><span>Quản lý địa điểm</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="profile.php"><i class="icon-user"></i><span>Tài khoản</span></a>
+                        <a class="nav-link" data-bs-hover-animate="pulse" href="aboutus.php"><i class="typcn typcn-info-large-outline"></i><span>Nhóm thực hiện</span></a>
                     </li>
                 </ul>
+                <div><input class="btn btn-lg" id="login-popup" type="submit" value="Đăng nhập" style="background-color:rgb(28, 186, 107); color: white; font-size: 14px; border-radius: 0.1rem;" onclick="openFormLogin();"></div>
+                <div class="form-popup" id="loginForm">
+
+                    <form action="assets/php/login.php" id="login-form" name="login-form" class="form-container" method="POST">
+                        <p id="noti-login" style="color:red; font-size: 16px;"></p>
+                        <input type="text" placeholder="Tài khoản" id="user" name="user" >
+                        <input type="password" placeholder="Mật khẩu" id="psw" name="psw">
+
+                        <input type="submit" value="Đăng nhập" style="font-size: 16px; margin-bottom: 10px;" class="btn" id="btn_login" name="input-login" onclick="SubFormLogin();return false">
+                        <input type="reset" value="Đóng" style="font-size: 16px;" class="btn cancel" id="btn-close" onclick="closeFormLogin();">
+                    </form>
+
+                </div>
             </div>
         </nav>
         <div class="d-flex " id="content-wrapper">
@@ -56,10 +74,13 @@
                     <div class="card" style="margin-top: -22px;">
                         <div class="card-body">
                             <h4 class="text-center card-title">Viết nhận xét của bạn</h4>
-                            <form action="#" onsubmit="return false" method="POST">
+                            <form action="#" method="POST" id="review-form">
                             <div class="x-dropdown dropdown">
                                 <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>Lựa chọn địa điểm</span><i class="material-icons">keyboard_arrow_down</i></div>
                                 <div class="dropdown-menu" role="menu">
+                                <?php
+                                    
+                                ?>
                                     <a class="dropdown-item" role="presentation" href="#">Quán nhậu 1</a>
                                     <a class="dropdown-item" role="presentation" href="#">Quán nhậu 2</a>
                                     <a class="dropdown-item" role="presentation" href="#">Quán nhậu 3</a>
@@ -80,17 +101,47 @@
                                 <p>Tiêu đề:</p><input class="form-control" type="text">
                                 <p style="margin-top: 20px;">Nhận xét (Tuỳ chọn):</p><textarea class="form-control" style="height: 130px;"></textarea>
                                 <div class="mt-4">
-                                    <input class="btn btn-success btn-lg text-center" type="submit" value="Nhận xét" style="padding-top: 8px;width: 115px;">
+                                    <input class="btn btn-success btn-lg text-center" type="submit" value="Nhận xét" onclick="SubFormNhanXet();return false" style="padding-top: 8px;width: 115px;">
                                     <input class="btn  btn-lg" type="reset" value="Huỷ" style="padding-top: 8px;width: 115px; color: red;">
                                 </div>
 
-                        </form>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        function SubFormLogin() {
+            $.ajax({
+                url:'assets/php/login.php',
+                type:'post',
+                data:$('#login-form').serialize(),
+                success:function() {
+                    document.getElementById("login-popup").value = "Đã đăng nhập";
+                    closeFormLogin();
+                }
+            });
+        }
+        function SubFormNhanXet() {
+            $.ajax({
+                url:'assets/php/review.php',
+                type:'post',
+                data:$('#review-form').serialize(),
+                success:function() {
+                    //document.getElementById("submitDone").innerHTML = "Thêm thành công";
+                }
+            });
+        }
+        //Login Popup
+        function openFormLogin() {
+            document.getElementById("loginForm").style.display = "block";
+        }
+        function closeFormLogin() {
+                document.getElementById("loginForm").style.display = "none";
+        }
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
