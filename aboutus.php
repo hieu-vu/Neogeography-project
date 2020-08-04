@@ -59,27 +59,27 @@
                         <div class="col-lg-12">
                             <h2 class="text-primary my-4">Nhóm số 04 gồm:</h2>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="assets/img/H.png">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/107089998_2637726879879309_1098422005618438980_n.jpg?_nc_cat=108&_nc_sid=174925&_nc_ohc=uM9M5apcMvAAX-HbX7K&_nc_ht=scontent.fhan5-5.fna&oh=37699cd3d24f25e35b9a71a046e67e3d&oe=5F4EE86B">
                             <h3 class="m-0">Vũ Huy Hiếu</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 A - Trường Đại học Mỏ - Địa chất</p>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="assets/img/H.png">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/81926322_2565089377149996_8242066430279811072_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=5RMTSMi1P_sAX92HBBa&_nc_ht=scontent.fhan5-6.fna&oh=1fea377b0a7b486f585c838641961160&oe=5F4E2196">
                             <h3 class="m-0">Nguyễn Trung Nam</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 A - Trường Đại học Mỏ - Địa chất<br></p>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="assets/img/H.png">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/60795821_305127737085229_8209266117227577344_n.jpg?_nc_cat=105&_nc_sid=174925&_nc_ohc=ZtaM-fE8AEQAX__c3N0&_nc_ht=scontent.fhan5-6.fna&oh=42efc22fe1cd481617c3e518726ffacf&oe=5F4D6141">
                             <h3 class="m-0">Phùng Văn Huân</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 C - Trường Đại học Mỏ - Địa chất<br></p>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="assets/img/H.png">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="width: 60%; height:50%" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/40063685_865096560546619_7593217066513989632_o.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=N8IAml-oaWAAX98T44S&_nc_ht=scontent.fhan5-5.fna&oh=7fb02c60b4317998728888743c9395b1&oe=5F4CCA40">
                             <h3 class="m-0">Nguyễn Tất Lọc</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 A - Trường Đại học Mỏ - Địa chất<br></p>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="max-width: 60%;" class="rounded-circle img-fluid d-block mx-auto" src="assets/img/H.png">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="width: 60%; height:50%" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-1.fna.fbcdn.net/v/t31.0-8/21743690_863915563776452_4706829432666285682_o.jpg?_nc_cat=109&_nc_sid=19026a&_nc_ohc=bCyJT-BZeswAX8TnWRP&_nc_ht=scontent.fhan5-1.fna&oh=0ebbe5c2639726aa36aab6cd0061c9ec&oe=5F502BD1">
                             <h3 class="m-0">Phạm Quang Long</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 A - Trường Đại học Mỏ - Địa chất<br></p>

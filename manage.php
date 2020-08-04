@@ -82,7 +82,17 @@
             <h1 class="text-center text-primary mb-4" >Quản lý địa điểm</h1>
             <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
                 <div>
-                    <form action="assets/php/outputKML.php" method="POST">
+                    <form action="assets/php/importKML.php" method="POST" style="float:left;" onsubmit="submitImport();//return false;" name="import-form">
+                    <!--<input class="btn btn-lg btn-success" id="fileId" name="fileId" type="file" accept=".kml" hidden></input>-->
+                    <input class="btn btn-lg btn-success" name="btn-import" type="submit" value="Nhập file KML"  name="btn" id="submitId"
+                            style="width: 148px;
+                            margin-left:10px;
+                            margin-top:10px;
+                            margin-bottom:10px;
+                            font-size:18px; ">
+                    </input>
+                    </form>
+                    <form action="assets/php/outputKML.php" method="POST" style="float:auto;">
                         <input class="btn btn-lg btn-success" name="btn-output" type="submit" value="Xuất file KML"  name="btn"
                                 style="width: 148px;
                                 margin-left:10px;
@@ -101,7 +111,7 @@
                             <th>Địa chỉ</th>
                             <th>Toạ độ</th>
                             <th class="text-center">
-                                <input class="btn btn-danger btn-sm" type="submit" value="Xoá" name="btn-delete" onclick="deleteConfirm();">
+                                <input class="btn btn-danger btn-sm" type="submit" value="Xoá" name="btn-delete" onclick="deleteConfirm();window.location.reload();">
                             </th>
                         </tr>
                     </thead>
@@ -149,6 +159,22 @@
     </div>
     <button onclick="topFunction()" id="myBtn" title="Lên đầu trang"><img src="https://img.icons8.com/metro/52/000000/up--v1.png"></button>
     <script>
+        function submitImport() {
+        $.ajax({
+            url: 'assets/php/importKML.php',
+            type: 'post',
+            data: $('#import-form').serialize(),
+            success: function() {
+            }
+        });
+    }
+    /*
+        //Xử lý nhấn upload file
+        document.getElementById('submitId').addEventListener('click', openDialog);
+        function openDialog() {
+            document.getElementById('fileId').click();
+        }
+*/
         function deleteConfirm() {
             del = confirm("Bạn có chắc muốn xoá những địa điểm này?");
             if(del) return true;
