@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Icon-Input.css">
-    <link rel="stylesheet" href="assets/css/review.css">
-    <link rel="stylesheet" href="assets/css/x-dropdown.css">
     <style>
         input {
             z-index: 1;
@@ -29,6 +27,34 @@
             height: 32px;
             width: 250px;
         }
+      .controls {
+            float:left;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 2px 0 0 2px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            height: 32px;
+            outline: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #destination-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+      }
+
+      #destination-input:focus {
+        border-color: #4d90fe;
+      }
+
     </style>
 </head>
 
@@ -37,7 +63,7 @@
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0">
                 <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-hover-animate="swing" href="#">
-                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-beer"></i></div>
                     <div class="sidebar-brand-text mx-3"><span>Beer Map-04</span></div>
                 </a>
                 <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -58,7 +84,11 @@
                 </ul>
             </div>
         </nav>
-        <div class="d-flex flex-column" id="content-wrapper"></div>
+        <div style="display: none">
+            <input id="destination-input" class="controls" type="text"
+                placeholder=" Chỉ đường tới địa điểm muốn đến">
+        </div>
+        <div class="d-flex flex-column" id="content-wrapper">Show Maps</div>
         <input
             id="searchBox"
             class="shadow-sm form-control-sm border-0 small"
@@ -66,15 +96,14 @@
             data-bs-hover-animate="pulse"
             placeholder="Tìm kiếm địa điểm, toạ độ"
         />
+    </div>
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/index.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc563n4ko5g3-1Hjw1aC7dh71_vsU43es&callback=initMap&libraries=places&v=weekly"
-      defer
-    ></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc563n4ko5g3-1Hjw1aC7dh71_vsU43es&callback=initMap&libraries=places&v=weekly" async defer></script>
 </body>
 
 </html>
