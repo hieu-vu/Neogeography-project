@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Icon-Input.css">
-    <link rel="stylesheet" href="assets/css/review.css">
-    <link rel="stylesheet" href="assets/css/x-dropdown.css">
 </head>
 
 <body id="page-top">
@@ -25,7 +23,7 @@
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0">
                 <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" data-bs-hover-animate="swing" href="#">
-                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-beer"></i></div>
                     <div class="sidebar-brand-text mx-3"><span>Beer Map-04</span></div>
                 </a>
                 <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -74,7 +72,7 @@
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 C - Trường Đại học Mỏ - Địa chất<br></p>
                         </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="width: 60%; height:50%" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/40063685_865096560546619_7593217066513989632_o.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=N8IAml-oaWAAX98T44S&_nc_ht=scontent.fhan5-5.fna&oh=7fb02c60b4317998728888743c9395b1&oe=5F4CCA40">
+                        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img style="width: 60%; height:50%" class="rounded-circle img-fluid d-block mx-auto" src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/39958266_859798827743059_768610008509186048_n.jpg?_nc_cat=102&_nc_sid=730e14&_nc_ohc=ZCP0jAwp0s8AX9KTlr-&_nc_ht=scontent.fhan5-2.fna&oh=618fed4e1560dda00f3efc91bfab656d&oe=5F4EB4F4">
                             <h3 class="m-0">Nguyễn Tất Lọc</h3>
                             <h5 class="my-1">Sinh viên</h5>
                             <p>Lớp Công nghệ phần mềm K61 A - Trường Đại học Mỏ - Địa chất<br></p>
