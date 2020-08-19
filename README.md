@@ -4,6 +4,6 @@
 * Places API
 * Directions API
 # Front-end
-* Bootstrap Studio
+* Bootstrap
 # Developer
 * Hiếu Vũ
