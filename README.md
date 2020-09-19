@@ -3,7 +3,7 @@
 * Maps Javascript API
 * Places API
 * Directions API
-# Front-end
+# Framework
 * Bootstrap
 # Developer
 * Hiếu Vũ
